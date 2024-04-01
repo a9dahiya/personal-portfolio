@@ -1,0 +1,191 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.anek-tamil {
+    font-family: "Anek Tamil", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.opening {
+    background-image: url(bg.png);
+    height: 900px;
+    width: 100%;
+    position: relative; /* Add position relative to allow absolute positioning */
+}
+
+
+
+.opening-text {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    text-align: right; /* Align the text to the right */
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+.opening-text h1 {
+    margin: 0;
+}
+
+.opening-text h2 {
+    margin: 0;
+}
+
+.aboutme {
+    background-color: #E3CAA5;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.aboutme h1 {
+    color: white;
+    margin-left: 10px; /* Adjust this value to move the text to the left */
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.aboutme ul {
+    color: white;
+    float: center; /* Add this line to move the list items to the right */
+    font-size: 40px;
+    margin-top: 0%; 
+    margin-left: 300px;
+}
+
+.projects {
+    background-color: #F1E4C3;
+    width: 100%;
+    height: 1100px;
+    padding-top: 30px;
+    text-align: center; /* Center text horizontally */
+   
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center projects horizontally */
+    gap: 20px;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    /* Adjust the width based on your design preferences */
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center text horizontally */
+}
+
+.project img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+    line-height: 200px; /* Center image vertically */
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #AD8B73; /* Custom color for the title */
+}
+
+.project ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #AD8B73; /* Custom color for bullet points */
+}
+
+.project ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.projects h1 {
+    color: #AD8B73;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.skills-wrapper {
+    background-color: #F8FAE5;
+    padding: 20px;
+    color: #561C24;
+    text-align: center;
+    height: 450px;
+}
+
+.skills-wrapper h1 {
+    margin-bottom: 60px;
+}
+
+.skills-column {
+    display: inline-block;
+    width: 48%; /* Adjust as needed */
+    vertical-align: top;
+    text-align: left;
+}
+
+.skills-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-column li {
+    margin-bottom: 8px;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the links */
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
